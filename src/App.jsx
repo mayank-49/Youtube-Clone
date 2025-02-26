@@ -1,6 +1,6 @@
 import { AppContext } from "./context/contextApi"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import React from "react";
 import Header from "./Components/Header";
 import Feed from "./Components/Feed";
 import SearchResults from "./Components/SearchResults";
