@@ -18,11 +18,11 @@ const SearchResultVideoCard = ({ video }) => {
         </div>
         <div className="flex flex-col ml-4 md:ml-6 mt-4 md:mt-0 overflow-hidden">
           <span className="text-lg md:text-xl font-semibold line-clamp-2 text-white">{video?.title}</span>
-          <span>{`${abbreviateNumber(video?.stats?.views, 2)} views`}</span>
+          <span className="text-white/[0.7]">{`${abbreviateNumber(video?.stats?.views, 2)} views`}</span>
           <span className="flex text-[24px] leading-none font-bold text-white/[0.7] relative top-[-10px] mx-1">
           .
           </span>
-          <span className="truncate">{video?.publishedTimeText}</span>
+          <span className="truncate text-white/[0.7]">{video?.publishedTimeText}</span>
           <div className="hidden md:flex items-center">
             <div className="flex items-start mr-3">
               <div className="flex h-9 w-9 rounded-full overflow-hidden">
